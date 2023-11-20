@@ -1,5 +1,5 @@
 {
-  "name": "pg-promise",
+  "name": "motorq-pgp",
   "version": "11.5.4",
   "description": "PostgreSQL interface for Node.js",
   "main": "lib/index.js",
@@ -42,7 +42,7 @@
   },
   "dependencies": {
     "assert-options": "0.8.1",
-    "pg": "8.11.3",
+    "motorq-pg": "8.11.4",
     "pg-minify": "1.6.3",
     "spex": "3.3.0"
   },

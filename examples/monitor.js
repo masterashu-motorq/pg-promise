@@ -18,7 +18,7 @@ const initOptions = {
     promiseLib: promise // overriding the default (ES6 Promise);
 };
 
-const pgp = require('pg-promise')(initOptions);
+const pgp = require('motorq-pgp')(initOptions);
 // See all options: http://vitaly-t.github.io/pg-promise/module-pg-promise.html
 
 const monitor = require('pg-monitor');

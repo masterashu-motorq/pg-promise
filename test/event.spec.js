@@ -1,7 +1,7 @@
 const QueryStream = require('pg-query-stream');
 const JSONStream = require('JSONStream');
-const pgResult = require('pg/lib/result');
-const pgClient = require('pg/lib/client');
+const pgResult = require('motorq-pg/lib/result');
+const pgClient = require('motorq-pg/lib/client');
 
 const header = require('./db/header');
 const promise = header.defPromise;

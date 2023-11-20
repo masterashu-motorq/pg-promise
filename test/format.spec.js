@@ -1,7 +1,7 @@
 const path = require('path');
 const pgp = require('../lib/index');
 
-const $pgUtils = require('pg/lib/utils');
+const $pgUtils = require('motorq-pg/lib/utils');
 
 const dateSample = new Date();
 

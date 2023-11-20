@@ -1,4 +1,4 @@
-const PG = require('pg');
+const PG = require('motorq-pg');
 const header = require('./db/header');
 const tools = require('./db/tools');
 
